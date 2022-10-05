@@ -39,7 +39,7 @@ int main()
         if (is_prime(i)) R = "True";
         else R = "False";
 
-        cout << i << " is a prime : " << R << endl;
+        cout << i << " is a prime: " << R << endl;
         if (!cin) f = true;
     }
 

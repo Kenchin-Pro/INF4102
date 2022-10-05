@@ -28,8 +28,6 @@ bool is_prime(int i) {
 
 int main()
 {
-    cout << "Tapez un entier :" << endl;
-
     int i;
     bool f = false;
     string R;

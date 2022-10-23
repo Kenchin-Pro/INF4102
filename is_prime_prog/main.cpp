@@ -3,8 +3,8 @@
 using namespace std;
 
 
-bool is_prime(int i) {
-    int x;
+bool is_prime(long long i) {
+    long long x;
     bool Prem = true;
 
     if (i == 0 || i == 1) {
@@ -28,17 +28,15 @@ bool is_prime(int i) {
 
 int main()
 {
-    int i;
+    long long i;
     bool f = false;
     string R;
-    while (1) {
-        cin >> i;
-
+    while (cin>>i) {
         if (is_prime(i)) R = "True";
         else R = "False";
 
         cout << i << " is a prime: " << R << endl;
         if (!cin) f = true;
     }
-
+    return 0;
 }
